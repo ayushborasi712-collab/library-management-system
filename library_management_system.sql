@@ -71,4 +71,5 @@ status ENUM('paid','unpaid')
 DEFAULT 'unpaid',
 FOREIGN KEY (member_id) REFERENCES members(member_id)
 );
+SELECT * FROM books;
 
